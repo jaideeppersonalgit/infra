@@ -11,7 +11,7 @@ module "eks" {
   endpoint_private_access = true
   endpoint_public_access  = true
 
-  enable_irsa                              = false
+  enable_irsa                              = true
   enable_cluster_creator_admin_permissions = true
 
   addons = {
